@@ -337,7 +337,8 @@ footer > p {
 
   /* ↓↓↓設定↓↓↓ */
   .wrapper {
-    width: 350px;
+    width: auto;
+    padding: 0 15px 0 15px;
   }
 
   .pc {
@@ -363,6 +364,7 @@ footer > p {
 
   .header-bg {
     height: 177px;
+    width: auto;
   }
 
   .header-bg > .inner-bg {
@@ -376,7 +378,7 @@ footer > p {
   }
 
   #modal {
-    height: 70vh;
+    height: auto;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -394,7 +396,7 @@ footer > p {
   }
 
   #modal > ul {
-    margin-top: 8rem;
+    margin-top: 7rem;
   }
 
   #modal li {
@@ -410,6 +412,10 @@ footer > p {
     left: -50%;
     bottom: -0.5rem;
     background-color: white;
+  }
+
+  #modal > i {
+    margin-top: 2rem;
   }
 
   .opening-message {
