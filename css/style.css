@@ -387,6 +387,7 @@ footer > p {
     display: grid;
     align-content: space-between;
     justify-content: center;
+    z-index: 10;
   }
 
   #modal a, #modal i {
